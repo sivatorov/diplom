@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f3149ac2-3ce4-45cd-b0b5-48ee7fef0545">
+  <name>СЕК_РасчётУправленческойЗарплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчёт управленческой зарплаты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>ChartOfCalculationTypes.СЕК_ОсновныеНачисления</content>
+  <content>ChartOfCalculationTypes.СЕК_ДополнительныеНачисления</content>
+  <content>ChartOfCalculationTypes.СЕК_Удержания</content>
+  <content>InformationRegister.СЕК_ГрафикиРаботы</content>
+  <content>CalculationRegister.СЕК_ОсновныеНачисления</content>
+  <content>CalculationRegister.СЕК_ДополнительныеНачисления</content>
+  <content>CalculationRegister.СЕК_Удержания</content>
+  <content>InformationRegister.СЕК_УсловияОплатыСотрудников</content>
+  <content>AccumulationRegister.СЕК_ВыполненныеСотрудникомРаботы</content>
+  <content>DataProcessor.СЕК_ЗапполнениеГрафика</content>
+  <content>AccumulationRegister.СЕК_ВзаиморасчетыССотрудниками</content>
+  <content>Report.СЕК_РасходЗапланированныхОтпусков</content>
+  <content>Report.СЕК_РасчетыССотрудниками</content>
+  <content>Report.СЕК_ВыработкаСпециалистов</content>
+  <content>InformationRegister.СЕК_ГрафикиОтпусков</content>
+  <parentSubsystem>Subsystem.СЕК_ДобавленныеОбъекты</parentSubsystem>
+</mdclass:Subsystem>

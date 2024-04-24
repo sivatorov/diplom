@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="86739b00-ee06-418f-aefd-ecfced137071">
+  <name>СЕК_ДобавленныеОбъекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавленные объекты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>HTTPService.ТелеграмБот</content>
+  <content>Constant.СЕК_ТокенУправленияТелеграмБотом</content>
+  <content>Constant.СЕК_ИдентификаторГруппыДляОповещения</content>
+  <content>Constant.СЕК_НоменклатураАбонентскаяПлата</content>
+  <content>Constant.СЕК_НоменклатураРаботаСпециалиста</content>
+  <content>Report.СЕК_ВыработкаСпециалистов</content>
+  <subsystems>СЕК_ОбслуживаниеКлиентов</subsystems>
+  <subsystems>СЕК_Справочники</subsystems>
+  <subsystems>СЕК_Документы</subsystems>
+  <subsystems>СЕК_РасчётУправленческойЗарплаты</subsystems>
+</mdclass:Subsystem>

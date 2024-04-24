@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="347f5a2d-c794-4a08-958a-3c763ae14700">
+  <name>СЕК_Документы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>Document.СЕК_НачислениеЗарплаты</content>
+  <content>Document.СЕК_НачислениеФиксированнойПремии</content>
+  <content>Document.СЕК_ВыплатыЗарплаты</content>
+  <content>Document.СЕК_ГрафикОтпусков</content>
+  <content>Report.СЕК_АнализВыставленныхАктов</content>
+  <parentSubsystem>Subsystem.СЕК_ДобавленныеОбъекты</parentSubsystem>
+</mdclass:Subsystem>

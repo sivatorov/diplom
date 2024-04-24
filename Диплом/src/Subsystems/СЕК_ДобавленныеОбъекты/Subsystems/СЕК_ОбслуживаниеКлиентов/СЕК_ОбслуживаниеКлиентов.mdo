@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5905d871-cd7c-4a63-b770-20947b330eaf">
+  <name>СЕК_ОбслуживаниеКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обслуживание клиентов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Enum.ВидыДоговоровКонтрагентов</content>
+  <content>Document.СЕК_ОбслуживаниеКлиента</content>
+  <content>Catalog.СЕК_ОбслуживаниеКлиентаПрисоединенныеФайлы</content>
+  <content>AccumulationRegister.СЕК_ВыполненныеКлиентуРаботы</content>
+  <content>DataProcessor.СЕК_МассовоеСозданиеАктов</content>
+  <parentSubsystem>Subsystem.СЕК_ДобавленныеОбъекты</parentSubsystem>
+</mdclass:Subsystem>
